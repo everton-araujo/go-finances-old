@@ -39,7 +39,7 @@ export const Icon = styled(Feather)<TypeProps>`
   `};
 
   ${({ type }) => type === 'down' && css`
-    color: ${({ theme }) => theme.colors.attetion};
+    color: ${({ theme }) => theme.colors.attention};
   `};
 
   ${({ type }) => type === 'total' && css`

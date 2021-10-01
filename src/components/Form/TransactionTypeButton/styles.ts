@@ -26,7 +26,7 @@ export const Container = styled.TouchableOpacity<ContainerProps>`
   `}
 
   ${({ isActive, type }) => isActive && type === 'down' && css`
-    background-color: ${({ theme }) => theme.colors.attetion_light};
+    background-color: ${({ theme }) => theme.colors.attention_light};
     border: 0px;
   `}
 `;
@@ -36,7 +36,7 @@ export const Icon = styled(Feather)<IconProps>`
   margin-right: 12px;
 
   color: ${({ theme, type}) => 
-    type === 'up' ? theme.colors.success : theme.colors.attetion
+    type === 'up' ? theme.colors.success : theme.colors.attention
   };
 `;  
 
