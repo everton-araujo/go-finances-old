@@ -23,7 +23,7 @@ const icon = {
   total: 'dollar-sign'
 }
 
-export function HighligthCard({ title, amount, lastTransaction, type }: Props) {
+export function HighlightCard({ title, amount, lastTransaction, type }: Props) {
   return (
     <Container type={type}>
       <Header>
